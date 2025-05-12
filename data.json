@@ -1,0 +1,20 @@
+{
+    "unit": { "name": "102" },
+    "customer": {
+    "firstName": "Lebo",
+    "lastName": "Mokoena",
+    "idNumber": "9001015009087",
+    "email": "lebo@example.com",
+    "phone": "+27 82 123 4567"
+    },
+    "selections": {
+      "kitchen": { "name": "Modern Light", "price": 10000 },
+      "bathroom": { "name": "Matte Black", "price": 8000 },
+      "upgrades": [
+        { "category": "Flooring", "name": "Herringbone Oak", "price": 12000 },
+        { "category": "Lighting", "name": "Pendant Fixtures", "price": 3000 }
+      ],
+      "totalInvestment": 33000
+    }
+  }
+  
