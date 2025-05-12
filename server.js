@@ -5,7 +5,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.post("/generate-pdf", async (req, res) => {
+app.post("/generate", async (req, res) => {
   const { customer, selections } = req.body;
 
   // Log incoming data for debugging
